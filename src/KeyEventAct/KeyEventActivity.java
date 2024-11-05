@@ -23,7 +23,7 @@ public class KeyEventActivity extends JFrame{
                     if ("aeiouAEIOU".indexOf(c) != -1) {
                         convertedText.append(Character.toUpperCase(c));
                     } else {
-                        convertedText.append(c);
+                        convertedText.append(Character.toLowerCase(c));
                     }
                 }
 
