@@ -41,7 +41,7 @@ public class Calculator extends JFrame{
     }
     public static void main(String[] args) {
         Calculator calc = new Calculator();
-        calc.setTitle("Leap Year Checker");
+        calc.setTitle("Simple Calculator");
         calc.setContentPane(calc.pCalc);
         calc.setSize(800, 300);
         calc.setDefaultCloseOperation(EXIT_ON_CLOSE);
